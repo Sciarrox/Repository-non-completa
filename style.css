@@ -1,0 +1,102 @@
+* {
+    font-family: "Electrolize", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-1 {
+    background: url(media/bg-1.jpg);
+}
+
+.bg-2 {
+    background: url(media/bg-2.jpg);
+    height: 100vh;
+}
+
+.bg-3 {
+    background: url(media/bg-3.jpg);
+}
+
+.custom-nav {
+    min-height: 100vh;
+}
+
+.custom-img {
+    min-width: 20%;
+}
+
+.img-custom2 {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+
+.btn-custom {
+    height: 50px;
+    width: 200px;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    color: yellow;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* header custom */
+
+.bg-custom {
+    height: 50%;
+    background-color: darkslateblue;
+}
+
+/* terza sezione */
+.custom-form {
+    height: 80%;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkslateblue;
+}
+
+
+
+
+
+@media screen (max-width: 767px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .btn-custom {
+        width: 90%;
+    }
+
+    .custom-img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .img-custom2 {
+        width: 100%;
+        height: auto;
+    }
+
+}
